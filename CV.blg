@@ -1,0 +1,29 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: CV.aux
+The style file: plain.bst
+Database file #1: publication.bib
+I was expecting a `,' or a `}'---line 25 of file publication.bib
+ :  pages={217}
+ :             .
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 48 of file publication.bib
+ : 
+ : @inproceedings{Obidina_2012c,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 62 of file publication.bib
+ :  year={2012}
+ :             .
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Obidina_2012d
+Warning--empty booktitle in Babicheva_2009
+Warning--empty booktitle in Babicheva_2010
+Warning--empty booktitle in Babicheva_2014a
+Warning--empty journal in Babicheva_2016d
+Warning--empty booktitle in Babicheva_2015h
+Warning--empty booktitle in Obidina_2010a
+Warning--empty booktitle in Obidina_2012a
+Warning--empty booktitle in Obidina_2012c
+Warning--empty booktitle in Obidina_2013b
+Warning--empty booktitle in Obidina_2013a
+Warning--empty booktitle in Obidina_2012b
+(There were 3 error messages)
