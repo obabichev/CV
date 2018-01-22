@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.10)  22 DEC 2017 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.10)  23 JAN 2018 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -704,14 +704,14 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 88.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 87.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 87.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 88.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 87.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -722,7 +722,7 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./photo.jpg>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 127.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 130.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -730,9 +730,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 132.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -741,10 +738,21 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 38.35199pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (/Users/obabichev/Documents/CV/CV/.texpadtmp/CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -753,18 +761,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21054 strings out of 492995
- 351423 string characters out of 6132703
- 540463 words of memory out of 5000000
+ 21065 strings out of 492995
+ 351543 string characters out of 6132703
+ 541463 words of memory out of 5000000
  24364 multiletter control sequences out of 15000+600000
- 62910 words of font info for 66 fonts, out of 8000000 for 9000
+ 63415 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,50p,10354b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,50p,10354b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /Users/obabichev/Documents/CV/CV/.texpadtmp/CV.pdf (2 pages, 4785934 bytes).
+Output written on /Users/obabichev/Documents/CV/CV/.texpadtmp/CV.pdf (3 pages, 4787834 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  21574 words of extra memory for PDF output out of 24883 (max. 10000000)
 
