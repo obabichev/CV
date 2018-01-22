@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.10)  23 JAN 2018 00:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.10)  23 JAN 2018 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -761,15 +761,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21065 strings out of 492995
- 351543 string characters out of 6132703
+ 21063 strings out of 492995
+ 351521 string characters out of 6132703
  541463 words of memory out of 5000000
  24364 multiletter control sequences out of 15000+600000
- 63415 words of font info for 71 fonts, out of 8000000 for 9000
+ 63314 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,50p,10354b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /Users/obabichev/Documents/CV/CV/.texpadtmp/CV.pdf (3 pages, 4787834 bytes).
+Output written on /Users/obabichev/Documents/CV/CV/.texpadtmp/CV.pdf (3 pages, 4787846 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
