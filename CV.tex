@@ -1,105 +1,161 @@
-\documentclass[10pt]{article}
-\usepackage{array, xcolor, lipsum, bibentry}
-\usepackage[margin=3cm]{geometry}
-\usepackage[english,russian]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage{url}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\title{\bfseries\Huge Oleg N. Babichev}
-\author{babichev.oleg.n@gmail.com}
-\date{}
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{multicol}
 
-\definecolor{lightgray}{gray}{0.8}
-\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
-\newcolumntype{R}{p{0.8\textwidth}}
-\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Oleg} % Your first name
+\familyname{Babichev} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+\title{Mobile developer}
+
+\address{83-73, Bolshaya-Akademicheskaya st., Moscow, Russian Federation}
+\mobile{+7(925)724-61-77}
+\email{babichev.oleg.n@gmail.com}
+\photo[70pt][0.4pt]{photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"Give me just a laptop and food to take a profit"}
+
+%----------------------------------------------------------------------------------------
 
 \begin{document}
-\maketitle
-\vspace{1em}
-\begin{minipage}[ht]{0.48\textwidth}
-Pervomayskaya st. 15-45\\
-Dolgoprudny 141701\\
-Moscow region\\
-Russia
-\end{minipage}
-\begin{minipage}[ht]{0.48\textwidth}
-July 20th, 2016\\
-+7 925 724 61 77
-\end{minipage}
 
-\smallskip
+\makecvtitle % Print the CV title
 
-\begin{minipage}[ht]{0.48\textwidth}
-\includegraphics[width=5cm]{photo}
-\end{minipage}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
-\vspace{20pt}
+\section{Education}
 
-%\section*{Objective}
-%Curriculum vitae
+\cventry{2015--2017}{MSc in Applied Mathematics and Informatics}{Moscow Institute of Physics and Technology}{Department of Innovation and High Technology}{\textit{Subject}: Social network analysis of email communications within companies}{\textit{Supervisor}: Associate professor Zvonov Denis}
 
-\section*{Professional Experience}
-\begin{tabular}{L!{\VRule}R}
-2013--2015 & {\bf Intel platform simulator developer (Intern),} \textit{Intel corporation, Moscow}\\
-2015--today&{\bf Android developer,} \textit{Sberbank-Technology, Moscow}\\
-\end{tabular}
-
-\section*{Education}
-\begin{tabular}{L!{\VRule}R}
-2015--2017 & {\bf MSc in Applied Mathematics and Informatics,}  \textit{Moscow Institute of Physics and Technology},\\
-		& \textit{Department}: Department of Innovation and High Technology,\\
-		&\textit{Subject}: Social network analysis of email communication in company\\
-		&\textit{Supervisor}: Associate professor Zvonov Denis\\
-2011--2015 & {\bf BSc in Applied Mathematics and Physics}, \textit{Moscow Institute of Physics and Technology},\\
-		& \textit{Department}: Department of Radio Engineering and Cybernetics\\
-		&\textit{Subject}: Research of performance of full-system simulator Simics\\
-		&\textit{Supervisor}: Associate professor Stepin Andrey
-\end{tabular}
-
-\section*{Languages}
-\begin{tabular}{L!{\VRule}R}
-Russian&Mother tongue\\
-{English}&{Intermediate}\\
-\end{tabular}
-
-\section*{Programming skills}
-\begin{tabular}{L!{\VRule}R}
-Java & SE, Spring, RxJava \\
-Android Developing & MVP, Dagger \\
-Python & Simulator device modelling, data analysis, pandas, django web developing,  \\
-C, C++ & Simulator device modelling \\
-JavaScript & ios developing with react-native, web \\
-Matlab & image processing course \\
-BigData & hadoop map reduce course \\\end{tabular}
-
-\section*{Other skills}
-\begin{tabular}{L!{\VRule}R}
-OS & Linux, Windows, MacOs\\
-CVS & git, svn \\
-\end{tabular}
-
-\section*{Coursera cources}
-\begin{itemize}
-	\item Mathematics and Python for data analysis: part 1.
-	\item Programming Mobile Applications for Android Handheld Systems: Part 1
-\end{itemize}
-
-\section*{My profiles}
-\begin{itemize}
-	\item LinkedIn: \url {https://www.linkedin.com/in/oleg-babichev-5b019210b}
-	\item GitHub: \url {https://github.com/obabichev/} (old: \url{https://github.com/ochuikin})
-	\item FaceBook: \url {http://facebook.com/obabichev}
-\end{itemize}
+\cventry{2011--2015}{BSc in Applied Mathematics and Physics}{\textit{Moscow Institute of Physics and Technology}}{Department of Radio Engineering and Cybernetics}{\textit{Subject}: Research of performance of full-system simulator Simics}{\textit{Supervisor}: Associate professor Stepin Andrey}
 
 
-\bibliographystyle{plain}
-\nobibliography{publication}
-%\section*{Books}
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Extra-Curricular Activities}
+
+\cventry{2015-2016}{Web/Mobile developing program}{TrackMail, Mail.ru Group}{}{}{}
+
+\cventry{2016}{Mobile developing summer school}{Yandex}{}{}{}
+
+\cventry{2014}{Java semester course}{NetCracker}{}{}{}
+
+\cventry{2012}{C/C++ education program}{iLab, Intel}{}{}{}
+
+
+\cventry{}{Programming Mobile Applications for Android Handheld Systems: Part 1}{Coursera}{}{}{}
+
+\cventry{}{Mathematics and Python for data analysis: part 1}{Coursera}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Professional Experience}
+
+\cventry{2016--today}{Chief IT Engineer}{Sberbank-Technology}{Moscow}{}{}
+
+\cventry{2015--2016}{Lead Engineer}{Sberbank-Technology}{Moscow}{}{}
+
+\cventry{2013--2015}{Intel platform simulator developer (Intern)}{Intel}{Moscow}{}{}
+
+\subsection{Projects}
+
+
+\cventry{Manager mobile workstation}{JavaScript,ReactNative}{An iOs ReactNative application for internal managers. I've dived into Mobile JavaScript developing with ReactNative}{}{}{}
+
+\cventry{SberbankOne}{Java,Spring,Hibernate}{A simple android/iOs application for financial news for a bank where I was invited to make data base structure and backend with Spring}{}{}{}
+
+\cventry{Sberbank Europe}{Android,Java}{An Android native application for foreign users for banking. My first Android application where I learned Android SDK and libraries like Dagger and Robotium}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	PROGRAMMING SCILLS
+%----------------------------------------------------------------------------------------
+
+\section{Programming skills}
+
+\cvitem{JavaScript}{React, ReactNative, Redux, Realm}{}{}{}{}
+\cvitem{Java}{SE, Spring, Hibernate, RxJava}{}{}{}{}
+\cvitem{Android Developing}{MVP, Dagger}{}{}{}{}
+\cvitem{Python}{data analysis, web developing (django), Simulator device modelling}{}{}{}{}
+\cvitem{C, C++}{Simulator device modelling}{}{}{}{}
+\cvitem{Matlab}{image processing}{}{}{}{}
+%\cvitem{BigData}{hadoop map reduce course}{}{}{}{}
+\cvitem{CVS}{git, svn}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Upper intermediate}{}
+\cvitemwithcomment{Russian}{Native}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Personal Details}
+\cvitem{DOB}{31th of July, 1993}
+\cvitem{Permanent Address}{83-73, Bolshaya-Akademicheskaya st., Moscow, Russian Federation}
+\cvitem{Languages}{English, Russian}
+\cvitem{Mobile No.}{+7(925)724-61-77}
+
+\section{Profiles}
+\cvitem{LinkedIn}{\url {https://www.linkedin.com/in/oleg-babichev-5b019210b}}{}{}{}{}
+\cvitem{GitHub}{\url {https://github.com/obabichev/} (old: \url{https://github.com/ochuikin})
+}{}{}{}{}
+\cvitem{FaceBook}{\url {http://facebook.com/obabichev}}{}{}{}{}
+
+\cvitemwithcomment{}{}{\huge \color {black!20} Oleg Babichev}
+
+\end{document}
+
+
+
+%\section*{Programming skills}
 %\begin{tabular}{L!{\VRule}R}
-%2015&\bibentry{Babichevs}
-%\end{tabular}
+%Java & SE, Spring, RxJava \\
+%Android Developing & MVP, Dagger \\
+%Python & Simulator device modelling, data analysis, pandas, django web developing,  \\
+%C, C++ & Simulator device modelling \\
+%JavaScript & ios developing with react-native, web \\
+%Matlab & image processing course \\
+%BigData & hadoop map reduce course \\%\end{tabular}
+%
+%\section*{Other skills}
+%\begin{tabular}{L!{\VRule}R}
+%OS & Linux, Windows, MacOs\\
+%CVS & git, svn \\
+%\end{tabular}
+%
 
-\end{document} 
+
+%
+%
+%\bibliographystyle{plain}
+%\nobibliography{publication}
+%
+%\end{document} 
